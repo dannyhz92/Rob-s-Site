@@ -4,7 +4,7 @@
 	width:100%;
 }
 .jtron{
-	background-image:url("img/electric.jpg");
+	background-image:url("img/pizza1.jpg");
       background-size: cover;
       padding-top: 20%;
       padding-bottom: 20%;
@@ -18,12 +18,21 @@
 	margin-top:-54px;
 }
 
+.intro {
+		border-bottom: 5px solid red;
+		padding-bottom: 10px;
+}
 
+.who {
+		border-bottom: 3px solid green;
+		border-radius: 10%;
+}
 
 #box {
-		background-color: #FF8C00;
 		display:block;
 		border-radius:1%;
+		border-bottom: 5px solid green;
+
 }
 
 div .img-thumbnail {
@@ -39,18 +48,26 @@ div .boxtwo {
 
 .display-4{
 		font-size:20px;
+		color:black;
 }
 
 .bg-light {
 	background-color:white;
 	
 }
+
+.pizzaicon
+
+{
+	width: 200px;
+	height: 200px;
+}
 /*navbar stuff*/
 
 
 .navbar-custom, .navbar-light, .navbar, .nav {
     background-color: #ffffff;
-	border-bottom: 5px solid orange;
+	border-bottom: 5px solid red;
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -69,13 +86,13 @@ div .boxtwo {
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: rgb(255,140,0);
+    border-color: rgb(255,0,0);
 }
 
 
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,140,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /*navbar stuff*/
@@ -98,6 +115,16 @@ body {
 ul a {
 	color:white;
 }
+
+div header {
+		border-radius: 1%;
+}
+
+div .img-thumbnail {
+			border-top: 4px solid red;
+
+}
+
 /*media queries*/
 
 @media all and (max-width:500px){
@@ -106,5 +133,14 @@ ul a {
 		padding-top: 200px;
 		height: 300px;
 	}
+	
+
+	
+
+	@media all and   (max-width:900px){
+			#box {
+		border-top: 0px;
+	  }
+		
 	
 }
